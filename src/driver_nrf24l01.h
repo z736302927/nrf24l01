@@ -129,7 +129,7 @@ typedef enum
     NRF24L01_OUTPUT_POWER_NEGATIVE_18_DBM = 0,        /**< -18 dBm */
     NRF24L01_OUTPUT_POWER_NEGATIVE_12_DBM = 1,        /**< -12 dBm */
     NRF24L01_OUTPUT_POWER_NEGATIVE_6_DBM  = 2,        /**< -6 dBm */
-    NRF24L01_OUTPUT_POWER_0_DBM          = 3,         /**< 0 dBm */
+    NRF24L01_OUTPUT_POWER_0_DBM           = 3,        /**< 0 dBm */
 } nrf24l01_output_power_t;
 
 /**
