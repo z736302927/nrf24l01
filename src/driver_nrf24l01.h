@@ -236,7 +236,7 @@ typedef struct nrf24l01_info_s
 /**
  * @brief     link gpio_write function
  * @param[in] HANDLE pointer to an nrf24l01 handle structure
- * @param[in] FUC pointer to a gpio_write function address
+ * @param[in] FUC pointer to a spi_write function address
  * @note      none
  */
 #define DRIVER_NRF24L01_LINK_SPI_WRITE(HANDLE, FUC)         (HANDLE)->spi_write = FUC
